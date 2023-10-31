@@ -1,0 +1,115 @@
+/* Navbar.css */
+.Navbar img{
+  cursor: pointer;
+  
+}
+.LOGO1{
+  background-color: white;
+}
+.Navbar {
+  z-index: 9999;
+  position: fixed;
+  margin: 22px 99px ;
+  display: flex;
+  align-items: center;
+  width: 87vw;
+  max-width: 88vw;
+}
+
+.Search {
+  border: none;
+  border-bottom: 2px black;
+  font-size: 17px;
+}
+
+/* SEARCHBAR */
+
+.searchbar {
+  position: relative;
+  
+  margin-left: 2vw;
+}
+
+.invisible-search {
+  color: #959595;
+  font-family: Lava Kannada;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  padding-bottom: 7px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+  outline: none;
+  width: 413px; /* Adjust the width as needed */
+}
+.Searchicon{
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+}
+.Right-Icon{
+  flex-grow: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.Icon1{
+  display: flex;
+  right:0;
+  background-color: white; 
+  border-radius: 60% 0% 0% 60%;
+  height: 36px;
+  width: 37px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Icon2{
+  display: flex;
+  right:0;
+  background-color: white;
+  border-radius: 0% 60% 60% 0%;
+  height: 36px;
+  width: 37px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Middle-Icon{
+background-color: white;
+height: 36px;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+}
+.Middle-Icon img{
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#number{
+  display: flex;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+height: 2px;
+left: 0;
+position: absolute;
+right: 47px;
+color: red;
+font-weight: 524;
+}
+@media screen and (max-width: 768px){
+  .Navbar {
+  margin: 22px 49px;
+  }
+  .invisible-search {
+
+    width: 235px;
+  }
+}

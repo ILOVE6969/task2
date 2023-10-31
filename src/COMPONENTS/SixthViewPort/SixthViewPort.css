@@ -1,0 +1,101 @@
+
+.SixthViewPort {
+    position: relative;
+    background-image: url("../../RESOURCES/BackGround.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 95px;
+    height: 405px;
+    padding-top: 50px;
+    padding-left: 40px
+}
+
+.Content2 p {
+    width: 599px;
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 25.31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 126.432% */
+}
+
+.search-bar {
+    padding-left: 10px
+}
+
+/* Style the search input */
+.search-bar {
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #a8a2a2;
+    width: 350px;
+    font-size: 16px;
+    height: 40px;
+    color: #333;
+}
+
+.search-bar::placeholder {
+    color: #777;
+    /* You can change the placeholder color */
+}
+
+.SignUp {
+    right: 0%;
+    position: absolute;
+    color: #0825EB;
+    font-size: 15.498px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-family: Lava Kannada;
+    cursor: pointer;
+    height: 40px;
+    background: white;
+    color: #0825EB;
+    border-radius: 5px;
+    border: 1px solid #a8a2a2;
+    height: 40px;
+    padding: 5px;
+}
+
+.SignUp:hover {
+    color: white;
+    background-color: #0825EB;
+}
+.EmailBox{
+    display: inline;
+    position: relative;
+}
+.Random{
+    color: #000;
+font-family: Lava Kannada;
+font-size: 15.31px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 282.935% */
+}
+@media screen and (max-width: 768px){
+    .SixthViewPort{
+        margin:50px 49px;
+        padding: 0;
+        height: fit-content;
+    }
+    .Content2 p{
+        width: auto;
+        font-size: 20.31px;
+        line-height: 5vmin;
+    }
+    .SignUp {
+        border: none;
+        position: absolute;
+    }
+    .EmailBox{
+        display: inline-block;
+    }
+    .search-bar{
+        width: 250px;
+    }
+}

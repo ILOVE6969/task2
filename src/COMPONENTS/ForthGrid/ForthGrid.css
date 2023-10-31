@@ -1,0 +1,119 @@
+.ForthContainer {
+    margin: 250px 150px 250px 170px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ForthContainer p {
+    color: #787878;
+    font-family: Lava Kannada;
+    font-size: 20.307px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  
+  .ForthContainer h1 {
+    text-align: right;
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 54.16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  
+  .ForthContainer h2 {
+    text-align: right;
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 32.16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+ 
+  .TextParent {
+    width: 50%;
+  }
+  
+  .accordion {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-top: 1px solid Blue;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 31.341px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.704px;
+  }
+  
+  .active {
+    border-top: 2px solid Blue;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .panel ul {
+    list-style: none; /* Remove bullets from list items */
+    color: #A4A4A4;
+    font-family: Lava Kannada;
+    font-size: 22.34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.704px; /* 106.104% */
+  }
+  
+  .panel li:hover {
+    color: blue; /* Change the color of list items individually on hover */
+  }
+  
+  .accordion-icon {
+    float: right;
+    font-weight: bold;
+    font-size: 28px;
+    margin-right: 10px;
+  }
+  
+  .AccordianParent {
+    margin-top: 40px;
+  }
+  @media screen and (max-width: 768px){
+    .ForthContainer{
+      margin: 80px 49px;
+      margin-right: 0;
+      justify-content: space-evenly;
+  }
+  .TextParent {
+    width: 50%;
+  }
+  .LeftSide{
+    justify-content: space-between;
+  }
+  .PhotoGirl{
+    width: 40vw;
+    overflow: hidden;
+  }
+  .ForthContainer h1{
+    margin: 0;
+  }
+  .ForthContainer h2{
+    margin: 22px 0px;
+  }
+  .PhotoGirl img{
+    width: 45vw;
+  }
+  .AccordianParent{
+    margin-top: 0;
+  }
+  }

@@ -1,0 +1,80 @@
+.video-background {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;   
+    height: 100vh;
+    z-index: 0; 
+}
+
+/* Style the video element itself */
+#video-bg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Ensure the video covers the entire container */
+}
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 84%;/* Adjust the width to control the gradient's coverage */
+    height: 100%;
+    background: linear-gradient(95deg, #FFF 24.46%, rgba(217, 217, 217, 0.00) 85.16%);
+    z-index: 2; /* Place the gradient overlay above the video */
+}
+.Eternal_Text{
+    width: 433px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 99px;
+    z-index: 24;
+    color: #000;
+    font-family: Lava Kannada;
+    font-style: normal;
+    line-height: normal; 
+}
+.Eternal_Text p{
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top:5px;
+    font-size: 20px;
+    
+}
+.Eternal_Text h1{
+    font-size: 4.375em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.discount-button{
+    margin: 16px 0px;
+    display: flex;
+}
+.Blue-Button{
+    font-size: 18px;
+    font-family: Lava Kannada;
+    cursor: pointer;
+    height: 40px;
+    width: 161px;
+    background-color:#0825EB; 
+    color: white; 
+    border: 2px solid#0825EB;
+}
+.Blue-Button:hover {
+    background:white; 
+    color:  #0825EB;
+}
+.Discount-Text h3{
+    margin: 0;
+}
+.Discount-Text{
+    margin-left: 22px;
+}
+hr{
+    color: #A4A4A4;
+}
+@media screen and (max-width: 768px){
+    .Eternal_Text{
+        margin-left: 49px;
+    }
+}
