@@ -76,5 +76,9 @@ hr{
 @media screen and (max-width: 768px){
     .Eternal_Text{
         margin-left: 49px;
+        width: 80vw;
+    }
+    .Eternal_Text h1{
+        font-size: 3em;
     }
 }

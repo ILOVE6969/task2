@@ -130,4 +130,7 @@
     .ProductImage{
         width: 35vw;
     }
+    .AddToCardButton{
+        font-size: 14px;
+    }
 }

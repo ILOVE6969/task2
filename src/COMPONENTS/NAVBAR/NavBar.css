@@ -1,7 +1,10 @@
-/* Navbar.css */
 .Navbar img{
   cursor: pointer;
   
+}
+.LeftHuMe{
+  display: flex;
+  align-items: center;
 }
 .LOGO1{
   background-color: white;
@@ -12,6 +15,7 @@
   margin: 22px 99px ;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 87vw;
   max-width: 88vw;
 }
@@ -43,6 +47,7 @@
   background: none;
   outline: none;
   width: 413px; /* Adjust the width as needed */
+  
 }
 .Searchicon{
   position: absolute;
@@ -50,9 +55,7 @@
   right: 0;
 }
 .Right-Icon{
-  flex-grow: 1;
   display: flex;
-  justify-content: right;
   align-items: center;
 }
 .Icon1{
@@ -110,6 +113,6 @@ font-weight: 524;
   }
   .invisible-search {
 
-    width: 235px;
+    width: 30vw;
   }
 }

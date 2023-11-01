@@ -12,10 +12,12 @@ const Navbar = () => {
   return (
     <>
       <div className="Navbar">
+            <div className="LeftHuMe">
             <img className="LOGO1" src={logo} alt="nothing" />
             <div className="searchbar " >
               <input type="text" id="search" className="invisible-search" placeholder="Search prishé beauty products" />
               <img className='Searchicon' src={SearchIcon}  alt="" />
+            </div>
             </div>
         <div className="Right-Icon">
               <div className="Icon1">

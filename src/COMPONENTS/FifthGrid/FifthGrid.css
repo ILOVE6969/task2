@@ -113,9 +113,10 @@
 @media screen and (max-width: 768px){
     .FifthParent{
         margin: 100px 49px;
+        flex-direction: column;
     }
     .TextContent {
-        width: 40%;
+      width: 97%;
       }
       .InstaImage {
         display: flex;

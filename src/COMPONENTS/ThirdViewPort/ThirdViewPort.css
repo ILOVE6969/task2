@@ -117,10 +117,27 @@ line-height: 32px; /* 59.084% */
 @media screen and (max-width: 768px){
     .ThirdContainer{
         margin: 80px 49px;
+        flex-direction: column-reverse;
     }
+    .ThirdContainer p{
+        width: 100%;
+    }
+    .ButtonWithText{
+        padding: 13px;
+    }
+    .ManyPhotos {
+        margin-top: 41px;
+        width: 100%;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+      }
+      .Content{
+        width: 90%;
+      }
     .RingParent{
     top: 68%;
-    right: 60%;
+    right: 55%;
     }
     .IMG3{
         display: none;

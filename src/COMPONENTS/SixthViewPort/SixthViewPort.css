@@ -80,8 +80,7 @@ line-height: 32px; /* 282.935% */
 @media screen and (max-width: 768px){
     .SixthViewPort{
         margin:50px 49px;
-        padding: 0;
-        height: fit-content;
+        height: 40vh;
     }
     .Content2 p{
         width: auto;
