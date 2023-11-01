@@ -11,8 +11,8 @@ import Footer from './COMPONENTS/FOOTER/Footer'
 
 function App() {
   return (
-    <>
-    <NavBar />
+    <>  
+    <NavBar />          
     <VideoBackground />
     <ITEM_GRID />
     <ThirdViewPort />

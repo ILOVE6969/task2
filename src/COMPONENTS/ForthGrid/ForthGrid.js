@@ -52,7 +52,7 @@ class Accordion extends Component {
             <h1>How</h1>
             <h2>Prishé makes you precious</h2>
             <p>
-              Together we’re building a safe, welcoming space in beauty and beyond. This is makeup made to feel good in, without hiding what makes you unique. And it’s all vegan and cruelty-free.
+              Together We’re building a safe, welcoming space in beauty and beyond. This is makeup made to feel good in, without hiding what makes you unique. And it’s all vegan and cruelty-free.
             </p>
             <div className="AccordianParent">
               {sections.map((section, index) => (
