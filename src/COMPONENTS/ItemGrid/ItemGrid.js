@@ -4,7 +4,6 @@ import image1 from "../../RESOURCES/Rectangle 11.png"
 import image2 from "../../RESOURCES/Rectangle 12.png"
 import image3 from "../../RESOURCES/Rectangle 13.png"
 import image4 from "../../RESOURCES/Rectangle 14.png"
-import CARTICON1 from "../../RESOURCES/CartIcon.png"
 
 export default function ItemGrid() {
 const [selectedCategory, setSelectedCategory] = useState('');
@@ -20,7 +19,7 @@ const MyComponent = ({ image, text, PriceButton, AddToCardButton }) => {
       <p>{text}</p>
       <div className="ButtonContainer">
       <button className='PriceButton' >{PriceButton}</button>
-      <button className='AddToCardButton'><img src={CARTICON1} alt="" />{AddToCardButton}</button>
+      <button className='AddToCardButton'>{AddToCardButton}</button>
       </div>
       
     </div>
@@ -53,7 +52,7 @@ const MyComponent = ({ image, text, PriceButton, AddToCardButton }) => {
     },
     // Add more data objects for additional components with different button text
   ];
-const categories = ['Eye', 'Lips', 'Face'];
+const categories = ['Eye', 'Lips', 'Face' ,'View All'];
     return (
     <div className="ParentContainer">
       <div className="LeftSide">

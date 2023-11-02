@@ -29,10 +29,11 @@
 
 .IconGrid {
     display: flex;
+    display: hidden;
     height: 64px;
     justify-content: space-between;
     align-items: center;
-    width: 306px;
+    width: 100px;
 }
 
 .IconGrid img {
@@ -77,7 +78,7 @@
 }
 
 .OvalButton {
-    margin-top: 72px;
+    margin-top: 24px;
     width: 83px;
     height: 41px;
     flex-shrink: 0;

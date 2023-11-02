@@ -1,5 +1,6 @@
 
 .Footer {
+    background: var(--Layer-color, #EFEFEE);
     margin-top: 160px;
     margin-left: 90px;
     margin-right: 270px;

@@ -19,6 +19,10 @@ export default function FifthGrid() {
             individuality by redefining what beautiful means. We strive to
             promote self-acceptance and make a difference in the world
           </p>
+          <div className="IconGrid">
+              <img src={INSTAICON} alt="" />
+              <img src={FACEBOOKICON} alt="" />
+            </div>
           <div className="OvalButton">
             <button>{"<"}</button>
             <button> {">"} </button>
@@ -27,12 +31,6 @@ export default function FifthGrid() {
 
         <div className="InstaImage">
           <div className="IconWithGirl">
-            <div className="IconGrid">
-              <img src={INSTAICON} alt="" />
-              <img src={FACEBOOKICON} alt="" />
-              <img src={LINKEDINICON} alt="" />
-              <img src={TWITTERICON} alt="" />
-            </div>
             <img className="INSTAGIRL1" src={INSTAGIRL1} alt="" />
           </div>
           <div className="Flaoting-Text Relative">

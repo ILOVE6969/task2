@@ -37,15 +37,17 @@
     width: 140px;
     background:white; 
     color:  #0825EB;
-    border-radius: 50px;
-    border:2px solid#0825EB;
+   
+    border:2px solid gray;
 }
 .Blue-round-Button:hover {
     background-color:#0825EB; 
+    border:2px solid blue;
     color: white; 
 }
 .Blue-round-Button.selected {
     background-color: #0825EB; /* Change to your desired color */
+    border:2px solid blue;
     color: white; /* Change to your desired text color */
 }
 
@@ -58,7 +60,7 @@
 .ButtonContainer{
     display: flex;
     align-content: center;
-    justify-content: space-between;
+    
     width: 91%;
 }
 .PriceButton{
@@ -68,11 +70,10 @@
     height: 40px;
     width: 140px;
     background:white; 
-    border: none;
-    border-bottom: 1px solid grey;
+
+    border: 1px solid rgb(196, 190, 190);
 }
 .AddToCardButton{
-    margin-left: 5px;
     font-size: 18px;
     font-family: Lava Kannada;
     width: 90% !important;
@@ -80,8 +81,7 @@
     height: 40px;
     background:white; 
     color:  #0825EB;
-    border: none;
-    border-bottom: 1px solid #0825EB;
+    border: 1px solid rgb(196, 190, 190);
 }
 .AddToCardButton:hover {
     background-color:#0825EB; 

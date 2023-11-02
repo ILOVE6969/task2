@@ -6,10 +6,12 @@
     background-size: cover;
     margin: 95px;
     height: 405px;
-    padding-top: 50px;
-    padding-left: 40px
-}
 
+}
+.TotalHuMe{
+    padding-left: 20px;
+    padding-top: 90px;
+}
 .Content2 p {
     width: 599px;
     color: #000;

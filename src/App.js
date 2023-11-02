@@ -7,6 +7,7 @@ import ForthGrid from './COMPONENTS/ForthGrid/ForthGrid'
 import FifthGrid from './COMPONENTS/FifthGrid/FifthGrid';
 import SixthViewPort from './COMPONENTS/SixthViewPort/SixthViewPort';
 import Footer from './COMPONENTS/FOOTER/Footer'
+import SKINTONE from './COMPONENTS/SKIN TONE/SKIN TONE';
 
 
 function App() {
@@ -15,11 +16,12 @@ function App() {
     <NavBar />          
     <VideoBackground />
     <ITEM_GRID />
+    <SKINTONE />
     <ThirdViewPort />
-    <ForthGrid />
     <FifthGrid />
     <SixthViewPort />
     <Footer />
+    
     </>
   );
 }

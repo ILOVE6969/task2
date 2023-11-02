@@ -1,0 +1,30 @@
+.SkinTone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 100px);
+    margin: 100px;
+}
+.LEFTY{
+ flex: 1;
+}
+.LEFTY h2{
+    color: var(--Heading-color, #434343);
+font-family: Source Serif Pro;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 62.2px; /* 111.071% */
+}
+.LEFTY p{
+    color: var(--Paragraph-Text-color, var(--Paragraph-Text-color, #565656));
+font-family: Nunito Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+.RIGHTY{
+   
+    flex: 1;
+}
