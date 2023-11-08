@@ -1,5 +1,6 @@
 import React from 'react'
 import "./SixthViewPort.css"
+import SecondBackground from "../../RESOURCES/Second.png";
 
 export default function SixthViewPort() {
   return (

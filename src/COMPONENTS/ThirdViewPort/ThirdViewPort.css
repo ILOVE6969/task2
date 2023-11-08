@@ -13,7 +13,6 @@
     background-color:#0825EB; 
     color: white; 
 }
-
 .KnowMore{
     margin-left: 5px;
     margin-top: 70px;
@@ -31,7 +30,8 @@
     color: white; 
 }
 .ThirdContainer{
-    margin: 250px 150px 250px 170px;
+    margin: 100px 150px 250px 100px;
+    width: calc(100% - 200px);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,14 +60,28 @@ line-height: 32px; /* 59.084% */
     font-weight: 400;
     line-height: 32px; 
 }
-
-
+.ManyPhotos{
+    max-width: 50%;
+}
+.ManyPhotos img{
+    width: 80%;
+  max-width: 100%;
+}
 .Content{
-    width: 65%;
+    width: 50%;
+}
+.small-blue{
+    width: 50%;
+  height: 2px;
+  background: #0825EB;
+}
+.blue{
+    color: #0825EB;
 }
 @media screen and (max-width: 768px){
     .ThirdContainer{
-        margin: 80px 49px;
+        margin: 76px 49px;
+        width: calc(100% - 98px);
         flex-direction: column-reverse;
     }
     .ThirdContainer p{
@@ -77,14 +91,18 @@ line-height: 32px; /* 59.084% */
         padding: 13px;
     }
     .ManyPhotos {
-        width: 50%;
+        width: 100%;
+        max-width: 100%;
       }
       .Content{
-        width: 90%;
+        width: 100%;
       }
     .RingParent{
     top: 68%;
     right: 55%;
+    }
+    .ManyPhotos img{
+        min-width: 100%;
     }
     .IMG3{
         display: none;

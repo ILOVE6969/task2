@@ -4,8 +4,7 @@ import INSTAGIRL1 from "../../RESOURCES/INSTAGIRL1.png";
 import INSTAGIRL2 from "../../RESOURCES/INSTAGIRL2.png";
 import INSTAICON from "../../RESOURCES/🦆 icon _instagram_.png";
 import FACEBOOKICON from "../../RESOURCES/🦆 icon _facebook squared_.png";
-import LINKEDINICON from "../../RESOURCES/🦆 icon _linkedin_.png";
-import TWITTERICON from "../../RESOURCES/🦆 icon _twitter_.png";
+
 import SMALLINSTA from "../../RESOURCES/🦆 icon _instagram icon_.svg";
 
 export default function FifthGrid() {

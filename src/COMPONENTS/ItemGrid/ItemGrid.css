@@ -3,17 +3,35 @@
     margin: 220px 99px;    
     font-family: Lava Kannada;
     justify-content: space-between;
+   
 }
 .LeftSide hr{
     margin-bottom: 43px;
     margin-top: 27px;
     width: 100%;
+    color: #EFEFEE !important;
 }
 .LeftSide{
     margin-top: -16px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+.LeftSide::before{
+    content: "";
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../RESOURCES/FIRST.png');
+    background-size: cover; /* Adjust to your preferences */
+    background-position: center; /* Adjust to your preferences */
+    background-repeat: no-repeat;
+    z-index: -1; /* Places the background behind the content */
+}
+
 .LeftSide p{
     font-size: 25px;
 }
@@ -37,9 +55,9 @@
     width: 140px;
     background:white; 
     color:  #0825EB;
-   
-    border:2px solid gray;
+    border:2px solid #EFEFEE;
 }
+
 .Blue-round-Button:hover {
     background-color:#0825EB; 
     border:2px solid blue;
@@ -56,19 +74,20 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     grid-gap: 1em;
+    background: #EFEFEE;
+    padding:2em;
 }
 .ButtonContainer{
     display: flex;
     align-content: center;
-    
-    width: 91%;
+    width: 100%;
 }
 .PriceButton{
     font-size: 18px;
     font-family: Lava Kannada;
     cursor: pointer;
     height: 40px;
-    width: 140px;
+    width: 30%;
     background:white; 
 
     border: 1px solid rgb(196, 190, 190);
@@ -76,7 +95,8 @@
 .AddToCardButton{
     font-size: 18px;
     font-family: Lava Kannada;
-    width: 90% !important;
+    
+    width: 70%;
     cursor: pointer;
     height: 40px;
     background:white; 
@@ -94,8 +114,16 @@
 }
 .ProductGrid p{
     font-size: 18px;
-    width: 90%;
+    width: 100%;
 }
+.ProductGrid{
+    width: min-content;
+}
+.no-border{
+    border: none;
+    outline: none;
+}
+
 @media screen and (max-width: 768px){
     .ParentContainer{
     margin: 100px 0px 0px 49px;

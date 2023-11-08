@@ -9,16 +9,24 @@
 
 }
 .TotalHuMe{
-    padding-left: 20px;
-    padding-top: 90px;
+    padding-left: 59px;
+    padding-top: 76px;
 }
 .Content2 p {
+    color: var(--Heading-color, #434343);
+
+/* Website fonts/H2 */
+font-family: Nunito Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     width: 599px;
-    color: #000;
-    font-family: Lava Kannada;
+    
+    /* font-family: Lava Kannada; */
     font-size: 25.31px;
-    font-style: normal;
-    font-weight: 400;
+    
+    
     line-height: 32px;
     /* 126.432% */
 }
@@ -72,7 +80,14 @@
     position: relative;
 }
 .Random{
-    color: #000;
+    color: var(--Paragraph-Text-color, var(--Paragraph-Text-color, #565656));
+
+/* Website fonts/Very small text */
+font-family: Nunito Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 font-family: Lava Kannada;
 font-size: 15.31px;
 font-style: normal;
@@ -83,6 +98,7 @@ line-height: 32px; /* 282.935% */
     .SixthViewPort{
         margin:50px 49px;
         height: 40vh;
+        width: calc(100% - 98px);
     }
     .Content2 p{
         width: auto;
@@ -98,5 +114,9 @@ line-height: 32px; /* 282.935% */
     }
     .search-bar{
         width: 250px;
+    }
+    .TotalHuMe{
+        padding-left: 10px;
+        padding-top: 10px;
     }
 }

@@ -1,17 +1,27 @@
-
 .Footer {
-    background: var(--Layer-color, #EFEFEE);
-    margin-top: 160px;
-    margin-left: 90px;
-    margin-right: 270px;
     display: flex;
     justify-content: space-between;
+
 }
 
+.Footer-Parent{
+    background: var(--Layer-color, #EFEFEE);
+    padding: 75px;
+    padding-top: 75px;
+  padding-top: 93px;
+  padding-right: 114px;
+}
+.Footer-Parent hr{
+    margin-top: 93px;
+  margin-bottom: 33px;
+}
 .LogoSide {
     display: flex;
-    width:200px;
-    flex-direction: column;
+    flex-direction: column;    
+}
+.GetInTouch{
+    display: flex;
+  flex-direction: column;
 }
 
 .LogoSide h2 {
@@ -24,16 +34,36 @@
     /* 75.632% */
 }
 
-.grid-container {
+.grid-container1 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 0fr);
-    column-gap: 2em;
+    row-gap: 1em;
+  column-gap: 5em;  
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto; /* Use "1fr" for equal height rows */
+    
+}
+.grid-container2{
+    display: grid;
+    row-gap: 1em;
+  column-gap: 4em;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto; /* Use "1fr" for equal height rows */
+    
+}
 
 
+.LastGrid{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .grid-item {
+    font-family: Nunito Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
     border: none;
     text-align: left;
     color: #000;
@@ -41,6 +71,19 @@
     font-style: normal;
     font-weight: 400;
     padding:2px;
+}
+h1{
+    color: var(--Heading-color, #434343) !important; 
+    font-weight: 700 !important; 
+}
+h2{
+    color: var(--Heading-color, #434343);
+}
+.OtherSide{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5em;
 }
 
 .grid-item h1{
@@ -64,14 +107,32 @@
 }
 .margin90{
     margin:0px 80px;
+    color: var(--Non-selected-text, #8E8E8E);
+
+/* Website fonts/Very small text */
+font-family: Nunito Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.margin90 hr{
+    stroke: var(--Stroke-color, #D0D0D0); 
+    margin-bottom: 32px;
+}
+.Relative{
+    position: relative;
+}
+.Absolute{
+    /* z-index: -22; */
+    position: absolute;
 }
 @media screen and (max-width: 768px){
     .Footer{
-        margin-left: 49px;
-        width: calc(100% - 55px);
+        width: 100%;
         display: flex;
         gap: 0.5em;
-        margin-right: 0px;
+        flex-direction: column-reverse;
     }
     .grid-container{
         column-gap: 0;
@@ -83,11 +144,30 @@
     .Random{
         margin:0;
     }
-
+    *{
+        padding: 0;
+     
+    }
+    .LogoSide{
+        max-width: 168px;
+    }
 }
 @media screen and (max-width:500px) {
     .Footer{
-       
         flex-wrap: wrap;
     }
+    .grid-container {
+        
+            display: grid;
+            grid-template-columns: auto auto ;
+            grid-template-rows: auto auto ; /* Use "1fr" for equal height rows */
+            
+        column-gap: 0% !important;
+    }
+}
+@media screen and (max-width:350px) {
+*{
+    margin-left:0 !important ;
+    
+}
 }

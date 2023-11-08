@@ -14,6 +14,8 @@ function ThirdViewPort() {
           
           <h1>Prishé’s</h1>
           <h2>Curology Line-up</h2>
+          <hr className="blue" />
+          <div className="small-blue" />
           <p>
             {" "}
             Made with our Botanical Blend of lotus, gardenia, and white water
